@@ -30,24 +30,34 @@ The goal is to reduce food waste while making cooking more fun and inspiring. �
 
 ## 📦 Getting Started
 
-### 1. Clone the repository
+### 1) Clone the repository
 
+```bash
 git clone https://github.com/<your-username>/EatUp.git
-cd EatUp 2. Backend Setup
-bash
-Copy code
+cd EatUp
+```
+
+### 2) Backend setup
+
+```bash
 cd backend
 npm install
 npm run dev
-Backend runs at http://localhost:5000
+```
 
-3. Frontend Setup
-   bash
-   Copy code
-   cd ../frontend
-   npm install
-   npm run dev
-   Frontend runs at http://localhost:5173
+Backend runs at: http://localhost:5000
+
+### 3) Frontend setup
+
+```bash
+cd ../frontend
+npm install
+npm run dev
+```
+
+Frontend runs at: http://localhost:5173
+
+---
 
 🌱 Roadmap
 Integrate OpenAI API for recipe generation.
